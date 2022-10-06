@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+main{
+    
+    /* justify-content: center;
+    align-items: center; */
+    width: 434px;
+    height: 467px;
+    flex-direction: column;
+    display: flex;
+    background: #FFFBF1;
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+
+.main__BlockMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* width: 100%; */
+    padding: 25px 50px 50px 50px;
+
+}
+.main__ImgBlock{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.main__MainText{
+    color: #6D3496;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    margin-bottom: 30px;
+}
+
+.form__input{
+    border: 2px solid #6D3496;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #6D3496;
+    padding: 10px 15px;
+    width: 100%;
+
+    margin-bottom: 20px;
+}
+
+.regestretion_form_blokc{
+    width: 100%;
+    
+}
+.regestretion_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__BLockTextMain{
+    width: 100%;
+    display: flex;
+}
+
+.from__checkbox_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+
+    /* Black */
+
+    color: #260A3A;
+}
+
+.from__checkbox{
+    background: #260A3A;
+    margin-right: 14px;
+    align-self: flex-start;
+}
+
+.form__BlockCheckBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form__BlockLink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #6D3496;
+    /* Ordinary shadow */
+
+    border-radius: 3px;
+
+    padding: 10px 17px;
+}
+
+.fromLinkText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+

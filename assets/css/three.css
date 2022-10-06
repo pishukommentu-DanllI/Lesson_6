@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.body__head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body__cricle{
+    margin-bottom: 36px;
+}
+.body__head_textBlock{
+    padding: 20px 60px;
+    background: #F1E8D9;
+    border-radius: 5px;
+    margin-bottom: 37px;
+
+    min-width: 359px;
+    
+}
+.body__head_textBlock_text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    
+    /* or 1px */
+
+    
+
+    /* Черный */
+
+    color: #0D0D0C;
+    
+}
+
+.regestretion_form{
+    flex-direction: row;
+    padding: 55px;
+    background: rgba(221, 183, 113, 0.22);
+    border-radius: 5px;
+
+    margin-bottom: 40px;
+    
+}
+.regestretion_form__Block{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 21px;
+    
+}
+
+.regestretion_form__nameuser_text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #0F0F0F;
+
+    margin-bottom: 20px;
+}
+
+.regestretion_form___btn{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(206, 206, 206, 0.25);
+    border-radius: 60px;
+    min-width: 360px;
+    min-height: 51px;
+    font-size: 100%;
+}
+
+.last_btn_block{
+    margin-bottom: 34px;
+}
+
+.regestretion_form__EmailMessageBlock{
+    margin-bottom: 44px;
+}
+
+.regestretion_form__EmailMessageText{
+    max-width: 307px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    /* or 1px */
+
+    display: flex;
+    align-items: center;
+
+    /* Черный */
+
+    color: #0D0D0C;
+}
+.regestretion_form_RegistBtn_block{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.regestretion_form_RegistBtn{
+    background: #08A045;
+    border-radius: 60px;
+    padding: 15px 30px;
+}
+
+.regestretion_form_RegistBtn_text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+
+}
+
+.body__ForgerPasswordBlock{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 0px 600px;
+    align-self: flex-start;
+
+    margin-bottom: 95px;
+}
+
+.body__FrogetLink{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(15, 15, 15, 0.71);
+}
+
+.body__ComeLink{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(15, 15, 15, 0.63);
+}
+
+.body__TextKonPol{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 4.5%;
+    /* or 1px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}

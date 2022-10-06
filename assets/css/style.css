@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    width: 568px;
+    height: 811px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 0 auto;
+    /* padding: 30px; */
+    
+}
+
+
+.second__body{
+    height: 594px;
+}
+/* @font-face{
+    font-family: "Rubik";
+    src: url('../fonts/Rubik.zip');
+} */
+
+.padd{
+    padding: 30px;
+}
+
+.header{
+    display: flex;
+    
+    border-bottom: 1px solid #C4C4C4;
+}
+.header__BlockText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-self: center;
+    margin: 0 auto;
+}
+
+
+.header__RegistrText{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #474747;
+}
+    
+
+.header__close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.main__BlockText{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.main__MainText{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #363636;
+}
+
+
+.regestretion_form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.regestretion_form__CheckBoxBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.regestretion_form__checkBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 14px;
+    gap: 10px;
+
+
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #363636;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    padding: 19px 14px;
+    margin: 7.5px 0px 7.5px 0px;
+}
+.last_input{
+    margin-bottom: 10px;
+}
+.first_input{
+    margin-top: 22px;
+}
+.fregestretion_form__text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    
+    color: #A9A9A9;
+}
+.regestretion_form__TextBlock{
+    margin-bottom: 30px;
+}
+.regestretion_form__CheckText{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #363636;
+    margin-left: 15px;
+
+}
+
+.regestretion_form__link{
+    color: #008C8C;
+}
+
+.regestretion_form__button__text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.regestretion_form__button{
+    border-radius: 30px;
+    background-color: #B13957;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 140px;
+    margin-bottom: 10px;
+
+    align-self: center;
+}
+
+.regestretion_form__TextComeing{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #363636;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.regestretion_form__button__second{
+    margin-bottom: 20px;
+}
+.regestretion_form__BTN{
+    display: flex;
+    padding: 18px 0px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    margin-bottom: 19px;
+    border: 1px solid #AFAFAF;
+}
+
+.regestretion_form__GooleText{
+    margin-left: 10px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #474747;
+
+}
