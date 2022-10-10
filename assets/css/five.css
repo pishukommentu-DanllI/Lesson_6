@@ -12,7 +12,13 @@ li{
 a{
     text-decoration: none;
 }
+input{
+    background: #FFFBF1;
+}
 
+textarea{
+    background-color: #FFFBF1;
+}
 main{
     display: flex;
     justify-content: center;
@@ -22,7 +28,8 @@ main{
 
     flex-direction: column;
 
-    margin-bottom: 130px;
+    padding-bottom: 130px;
+    background: #FFFBF1;
 }
 
 
